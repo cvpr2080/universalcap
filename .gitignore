@@ -1,0 +1,12 @@
+*.pyc
+*.sh
+launch.json
+settings.json
+*tfevents*
+saved_models/
+job_logs/
+tensorboard_logs/
+evaluation/tmp*
+evaluation/meteor/meteor-1.5.jar
+evaluation/meteor/data/
+wandb/

@@ -1,0 +1,21 @@
+{
+        "train_batch_size": 1080,
+        "train_micro_batch_size_per_gpu": 108,
+        "gradient_accumulation_steps": 1,
+        "optimizer": {
+        "type": "Lamb",
+                "params": {
+                        "lr": 1
+                }
+        },
+        "fp16": {
+                "enabled": true
+        },
+        "zero_optimization": {
+                "stage": 2,
+                "overlap_comm": true
+        },
+        "memory_breakdown": false,
+        "wall_clock_breakdown": false,
+        "zero_allow_untested_optimizer": true
+}
